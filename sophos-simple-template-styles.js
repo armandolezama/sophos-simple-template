@@ -5,15 +5,16 @@ export default css`
     display: var(--sophos-simple-template-main-container-template-style-full-nav-display, flex);
     justify-content: var(--sophos-simple-template-main-container-template-style-full-nav-justify-content, space-around);
     align-items: var(--sophos-simple-template-main-container-template-style-full-nav-align-items, center);
-    width: var(--sophos-simple-template-main-container-template-style-full-nav-width, 100%);
-    height: var(--sophos-simple-template-main-container-template-style-full-nav-height, 98vh);
+    width: var(--sophos-simple-template-main-container-template-style-full-nav-width, 99%);
+    height: var(--sophos-simple-template-main-container-template-style-full-nav-height, 97vh);
     border-style: var(--sophos-simple-template-main-container-template-style-full-nav-border-style, solid);
   }
   
   #main-container[ template-style = "full-header" ] {
-    display: var(--sophos-simple-template-main-container-template-style-full-header-display, block);
-    width: var(--sophos-simple-template-main-container-template-style-full-header-width, 100%);
-    height: var(--sophos-simple-template-main-container-template-style-full-header-height, 98vh);
+    display: var(--sophos-simple-template-main-container-template-style-full-header-display, inline-flex);
+    flex-direction: column;
+    width: var(--sophos-simple-template-main-container-template-style-full-header-width, 99%);
+    height: var(--sophos-simple-template-main-container-template-style-full-header-height, 97vh);
     border-style: var(--sophos-simple-template-main-container-template-style-full-header-border-style, solid);
   }
 
@@ -40,6 +41,8 @@ export default css`
   }
 
   #main-section[ template-style = "full-nav" ] {
+    display: var(--sophos-simple-template-main-section-template-style-full-nav-display, inline-flex);
+    flex-direction: var(--sophos-simple-template-main-section-template-style-full-nav-flex-direction, column);
     width: var(--sophos-simple-template-main-section-template-style-full-nav-width, 80%);
     height: var(--sophos-simple-template-main-section-template-style-full-nav-height, 100%);
     border-style: var(--sophos-simple-template-main-section-template-style-full-nav-border-style, solid);
@@ -48,7 +51,7 @@ export default css`
   #main-section[ template-style = "full-header" ] {
     display: var(--sophos-simple-template-main-section-template-style-full-header-display, flex);
     width: var(--sophos-simple-template-main-section-template-style-full-header-width, 100%);
-    height: var(--sophos-simple-template-main-section-template-style-full-header-height, 100%);
+    height: var(--sophos-simple-template-main-section-template-style-full-header-height, 80%);
     border-style: var(--sophos-simple-template-main-section-template-style-full-header-border-style, solid);
   }
 
@@ -69,7 +72,7 @@ export default css`
     align-items: var(--sophos-simple-template-styles-main-view-template-style-full-header-align-items, center);
     flex-direction: var(--sophos-simple-template-styles-main-view-template-style-full-header-flex-direction, column);
     flex-wrap: var(--sophos-simple-template-styles-main-view-template-style-full-header-flex-wrap, wrap);
-    width: var(--sophos-simple-template-styles-main-view-template-style-full-header-width, 100%);
+    width: var(--sophos-simple-template-styles-main-view-template-style-full-header-width, 80%);
     height: var(--sophos-simple-template-styles-main-view-template-style-full-header-height, 100%);
     border-style: var(--sophos-simple-template-styles-main-view-template-style-full-header-border-style, solid);
   }

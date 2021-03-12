@@ -9,7 +9,7 @@ export class SophosSimpleTemplate extends LitElement {
     */
   constructor() {
     super();  
-    this.styleTemplate = 'full-nav'; //Admit full-nav or full-header.
+    this.styleTemplate = 'full-header'; //Admit full-nav or full-header.
     this.showNavigationBar = false;
     this.showHeader = false;
   };

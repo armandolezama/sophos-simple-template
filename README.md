@@ -1,0 +1,1 @@
+# sophos-simple-template

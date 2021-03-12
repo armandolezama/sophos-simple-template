@@ -2,9 +2,14 @@
   "name": "sophos-simple-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sophos-simple-template.js",
+  "module": "sophos-simple-template.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "es-dev-server --app-index demo/index.html --node-resolve --watch --open",
+    "test": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false",
+    "test:update-snapshots": "karma start --update-snapshots",
+    "test:prune-snapshots": "karma start --prune-snapshots"
   },
   "keywords": [],
   "author": "",

@@ -1,4 +1,4 @@
-import { css } from 'lit-element'
+import { css } from 'lit'
 
 export default css`
   #main-container[ template-style = "full-nav" ] {
@@ -92,5 +92,7 @@ export default css`
     min-width: 300px;
     max-width: 600px;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
   }
 `;
